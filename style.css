@@ -20,11 +20,11 @@
   height: 100%;
 }
 
-/* .generated-code {
+.generated-code {
   transition: scale 250ms ease-in-out;
 }
 
 .generated-code:is(:hover, :focus) {
   cursor: pointer;
   scale: 1.1;
-} */
+}
