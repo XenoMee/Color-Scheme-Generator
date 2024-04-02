@@ -26,9 +26,9 @@ const colorSchemeContainer = document.querySelector('.color-scheme');
 // };
 
 formEl.addEventListener('submit', (e) => {
-  //   const seedColor = document.querySelector('.color-input').value.slice(1);
-  //   const colorSchemeMode = document.querySelector('#mode').value.toLowerCase();
+  const seedColor = document.querySelector('.color-input').value.slice(1);
+  const colorSchemeMode = document.querySelector('#mode').value.toLowerCase();
 
   e.preventDefault();
-  //   getColorScheme(seedColor, colorSchemeMode);
+  getColorScheme(seedColor, colorSchemeMode);
 });
