@@ -1,4 +1,5 @@
 const colorSchemeContainer = document.querySelector('.color-scheme');
+
 const getColorScheme = (colorHex, colorMode) => {
   const colorSchemeUrl = `https://www.thecolorapi.com/scheme?hex=${colorHex}&mode=${colorMode}`;
   fetch(colorSchemeUrl)
@@ -22,3 +23,5 @@ const getColorScheme = (colorHex, colorMode) => {
       colorSchemeContainer.classList.add('py-2');
     });
 };
+
+export default getColorScheme;
