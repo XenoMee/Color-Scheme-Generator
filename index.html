@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Scheme Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="min-h-svh grid items-center">
+    <main>
+        <div class="max-w-md mx-auto bg-slate-400">
+            <div class="color-header flex p-4 justify-between items-center">
+                <input type="color" name="color" id="color">
+                <select id="mode" class="px-2 py-1 rounded-md">
+                    <option>Monochrome</option>
+                    <option>Monochrome-Dark</option>
+                    <option>Monochrome-Light</option>
+                    <option>Analogic</option>
+                    <option>Complement</option>
+                    <option>Analogic-Complement</option>
+                    <option>Triad</option>
+                    <option>Quad</option>
+                </select>
+                <button class="btn get-btn">Get color scheme</button>
+            </div>
+            <div class="color-scheme">
+
+
+            </div>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>

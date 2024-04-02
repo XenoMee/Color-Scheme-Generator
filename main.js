@@ -1,0 +1,1 @@
+const seedColor = 0;
